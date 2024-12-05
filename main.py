@@ -14,6 +14,7 @@ import pyaudio
 
 
 MASTER = "Sam"
+NEW = "CHANGE BY DEV 1"
 print("Initializing Jojo...")
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
