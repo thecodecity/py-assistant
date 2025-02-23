@@ -12,7 +12,7 @@ import random
 import requests
 import pyaudio
 
-# THIS IS A NEW CHANGE
+# THIS IS A NEW CHANGE - This is done by some other dev
 MASTER = "Sam"
 NEW = "CHANGE BY DEV 1"
 ANOTHER = "MY CHANGE"
