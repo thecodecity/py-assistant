@@ -26,6 +26,7 @@ engine.setProperty('voice', voices[0].id)
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
+    print("The bot is talking")
 
 def time():
     Time = datetime.datetime.now().strftime("%H:%M:%S")
