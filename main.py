@@ -18,7 +18,7 @@ NEW = "CHANGE BY DEV 1"
 ANOTHER = "MY CHANGE"
 NEW1 = "ANOTHER CHANGE BY DEV1"
 print("Initializing The AI Bot...")
-print("Now the bot will work")
+print("Now the bot will work, talk to the bot now")
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
